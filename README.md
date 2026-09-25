@@ -1,12 +1,12 @@
 # 🏛️ Parser de Archivos Catastrales y Tablero de Seguimiento
 
-**Descripción Corta:** Conjunto de herramientas en Python para la ingeniería inversa, extracción y consolidación de archivos planos de ancho fijo del catastro multipropósito colombiano (IGAC), con generación automática de tableros HTML de seguimiento.
+**Descripción Corta:** Conjunto de herramientas en Python para la ingeniería inversa, extracción y consolidación de archivos planos de ancho fijo del catastro multipropósito colombiano (IGAC), con sucesiva generación de tablero HTML de seguimiento.
 
 ## Sobre el Proyecto
 
-Desarrollado para la supervisión municipal de un convenio de actualización catastral con enfoque multipropósito. Los archivos de resoluciones de conservación y de la base catastral se entregan como texto posicional sin delimitador ni diccionario de datos: la estructura se descifró por análisis de frecuencias y validación cruzada contra los valores declarados en los propios registros, y posteriormente se confirmó contra el layout oficial.
+Desarrollado para la supervisión municipal de un convenio de actualización catastral con enfoque multipropósito. Los archivos de resoluciones de conservación y de la base catastral se entregaron inicialmente como texto posicional sin delimitador ni diccionario de datos: la estructura se descifró por análisis de frecuencias y validación cruzada contra los valores declarados en los propios registros, y posteriormente se confirmó contra el layout oficial.
 
-El resultado convierte entregas indescifrables en tablas relacionales listas para PostgreSQL, Power BI o ArcGIS Pro.
+El resultado convierte entregas de registros r1, r2 ,r3 en tablas relacionales listas para PostgreSQL, Power BI o ArcGIS Pro.
 
 ## Funcionalidades Principales
 
